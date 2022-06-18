@@ -1,0 +1,46 @@
+task 1:
+user - (primary key), email
+add 10 records
+serialised insert statement
+batch insert statement
+
+task 2:
+
+add 2 more columns = age, sex (update)
+add values to columns
+
+2.
+find average age of users
+find average per sex
+find min and max age per sex group
+find min and max age of all
+find user with longest email address
+find user with longest email address and username if put together into one string
+get users ordered by age, sex
+
+
+export result into csv file for last query
+
+-- task 3
+
+
+create new table (address)
+columns (
+    -addressid (primary key),
+    -city
+    -street
+    -street_number
+    )
+
+add new column to person table (
+    -foreign key to address table
+)
+
+use address
+
+1. create a query to show the person + address using the key relation
+2. create a query to show person without an anddres - using the key relation
+3. update address street column using person name value and key relation
+
+
+
